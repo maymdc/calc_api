@@ -1,0 +1,25 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "Criação de um webservice usando nodejs com typescript",
+  "main": "server.js",
+  "scripts": {
+    "dev": "ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts",
+    "start": "node server.js"
+  },
+  "author": "Mayara",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.0.0",
+    "ts-node-dev": "^1.0.0-pre.49",
+    "@types/express": "^4.17.6",
+    "@types/jsonwebtoken": "^8.5.0"
+  }
+}
